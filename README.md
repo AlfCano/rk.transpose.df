@@ -9,8 +9,7 @@ local({
 require(devtools)
 ## Computar
   install_github(
-    repo="AlfCano/rk.transpose.df
-"
+    repo="AlfCano/rk.transpose.df"
   )
 ## Imprimir el resultado
 rk.header ("Resultados de Instalar desde git")
