@@ -1,0 +1,17 @@
+Package: rk.transpose.df
+Type: Package
+Title: An RKWard plugin to transpose a data frame, turning rows into
+        columns and columns into rows.
+Version: 0.01-1
+Date: 2025-09-07
+Author: Plugin Assistant
+Maintainer: Plugin Assistant <assistant@example.com>
+Enhances: rkward
+Description: An RKWard plugin to transpose a data frame, turning rows
+        into columns and columns into rows.
+License: GPL
+Encoding: UTF-8
+LazyLoad: yes
+URL: http://example.com/rk.transpose.df
+Authors@R: person(given="Plugin", family="Assistant",
+        email="assistant@example.com", role=c("aut", "cre"))

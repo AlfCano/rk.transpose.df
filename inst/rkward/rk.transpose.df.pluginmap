@@ -1,0 +1,77 @@
+<!DOCTYPE
+	rkpluginmap
+>
+<document
+	base_prefix=""
+	namespace="TransposeDataFrame"
+	id="TransposeDataFrame_rkward"
+	po_id="TransposeDataFrame_rkward"
+	priority="medium"
+>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<about
+		name="rk.transpose.df"
+		shortinfo="An RKWard plugin to transpose a data frame, turning rows into columns and columns into rows."
+		longinfo="An RKWard plugin to transpose a data frame, turning rows into columns and columns into rows."
+		version="0.01-1"
+		releasedate="2025-09-07"
+		url="http://example.com/rk.transpose.df"
+		license="GPL"
+	>
+		<author
+			given="Plugin"
+			family="Assistant"
+			email="assistant@example.com"
+			role="aut, cre"
+		/>
+	</about>
+	<require
+		map="rkward::menu"
+	/>
+	<require
+		map="rkward::embedded"
+	/>
+	<components>
+		<component
+			id="cmp_TransposeDtFrmTrnspsDtFrm"
+			label="Transpose Data Frame"
+			type="standard"
+			file="plugins/TransposeDataFrame.xml"
+		>
+		</component>
+	</components>
+	<hierarchy>
+		<menu
+			id="data"
+			label="Data"
+		>
+			<menu
+				id="TransposeDataFrame"
+				label="Transpose Data Frame"
+			>
+				<entry
+					component="cmp_TransposeDtFrmTrnspsDtFrm"
+				/>
+			</menu>
+		</menu>
+	</hierarchy>
+	<!--
+		<context
+			id="x11"
+		>
+		</context>
+	-->
+	<!--
+		<context
+			id="import"
+		>
+		</context>
+	-->
+</document>

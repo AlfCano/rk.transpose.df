@@ -1,0 +1,30 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="TransposeDataFrame.js" />
+	<help file="TransposeDataFrame.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Transpose Data Frame">
+		<column id="clm_rSSDSSSDSS">
+			<row id="row_vrslctSSDS">
+				<varselector id="vrs_Slctdtbj" label="Select data object" />
+				<varslot id="var_data" label="Data frame to transpose (required)" source="vrs_Slctdtbj" />
+			</row>
+			<saveobject label="Save transposed data to object" checkable="true" checked="true" initial="transposed.data" id="sav_result" />
+		</column>
+	</dialog>
+</document>
