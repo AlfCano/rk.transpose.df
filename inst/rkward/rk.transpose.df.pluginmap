@@ -21,14 +21,14 @@
 		shortinfo="An RKWard plugin to transpose a data frame, turning rows into columns and columns into rows."
 		longinfo="An RKWard plugin to transpose a data frame, turning rows into columns and columns into rows."
 		version="0.01-1"
-		releasedate="2025-09-07"
-		url="http://example.com/rk.transpose.df"
+		releasedate="2025-09-09"
+		url="https://github.com/AlfCano/rk.transpose.df"
 		license="GPL"
 	>
 		<author
-			given="Plugin"
-			family="Assistant"
-			email="assistant@example.com"
+			given="Alfonso"
+			family="Cano Robles"
+			email="alfonso.cano@correo.buap.mx"
 			role="aut, cre"
 		/>
 	</about>
