@@ -25,7 +25,7 @@ about_plugin_list <- list(
   author = about_author,
   about = list(
     desc = "An RKWard plugin to transpose a data frame, turning rows into columns and columns into rows.",
-    version = "0.01-1",
+    version = "0.01.2",
     date = format(Sys.Date(), "%Y-%m-%d"),
     url = "https://github.com/AlfCano/rk.transpose.df",
     license = "GPL",
@@ -121,7 +121,7 @@ js_calculate <- '
 # --- Plugin Skeleton Generation ---
 rk.plugin.skeleton(
   about = about_node,
-  pluginmap = list(name = "Transpose Data Frame", hierarchy = list("data", "Transpose Data Frame")),
+  pluginmap = list(name = "Transpose Data Frame", hierarchy = list("data")),
   xml = list(dialog = transpose_dialog),
   js = list(calculate = js_calculate, printout = ""),
   rkh = list(help = transpose_help_rkh),

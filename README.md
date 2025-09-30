@@ -1,6 +1,9 @@
 
 # RKWard Plugin: Transpose Data Frame (`rk.transpose.df`)
 
+![Version](https://img.shields.io/badge/Version-0.01.2-blue.svg)
+![License](https://img.shields.io/badge/License-GPL--3-green.svg)
+
 > A simple RKWard plugin to transpose a data frame, converting rows to columns and columns to rows.
 
 ## Overview
