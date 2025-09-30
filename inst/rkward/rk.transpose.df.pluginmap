@@ -20,8 +20,8 @@
 		name="rk.transpose.df"
 		shortinfo="An RKWard plugin to transpose a data frame, turning rows into columns and columns into rows."
 		longinfo="An RKWard plugin to transpose a data frame, turning rows into columns and columns into rows."
-		version="0.01-1"
-		releasedate="2025-09-09"
+		version="0.01.2"
+		releasedate="2025-09-29"
 		url="https://github.com/AlfCano/rk.transpose.df"
 		license="GPL"
 	>
@@ -52,14 +52,9 @@
 			id="data"
 			label="Data"
 		>
-			<menu
-				id="TransposeDataFrame"
-				label="Transpose Data Frame"
-			>
-				<entry
-					component="cmp_TransposeDtFrmTrnspsDtFrm"
-				/>
-			</menu>
+			<entry
+				component="cmp_TransposeDtFrmTrnspsDtFrm"
+			/>
 		</menu>
 	</hierarchy>
 	<!--
