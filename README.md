@@ -3,6 +3,7 @@
 
 ![Version](https://img.shields.io/badge/Version-0.01.2-blue.svg)
 ![License](https://img.shields.io/badge/License-GPL--3-green.svg)
+[![R Linter](https://github.com/AlfCano/rk.transpose.df/actions/workflows/lintr.yml/badge.svg)](https://github.com/AlfCano/rk.transpose.df/actions/workflows/lintr.yml)
 
 > A simple RKWard plugin to transpose a data frame, converting rows to columns and columns to rows.
 
@@ -61,5 +62,10 @@ rk.header ("Resultados de Instalar desde git")
 ## License
 
 This plugin is licensed under the GPL (>= 3).
+
+## Author
+
+* Alfonso Cano (alfonso.cano@correo.buap.mx)  
+* Assisted by Gemini, a large language model from Google.
 
 
