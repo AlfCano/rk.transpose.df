@@ -1,7 +1,7 @@
 
 # RKWard Plugin: Transpose Data Frame (`rk.transpose.df`)
 
-![Version](https://img.shields.io/badge/Version-0.01.2-blue.svg)
+![Version](https://img.shields.io/badge/Version-0.01.3-blue.svg)
 ![License](https://img.shields.io/badge/License-GPL--3-green.svg)
 [![R Linter](https://github.com/AlfCano/rk.transpose.df/actions/workflows/lintr.yml/badge.svg)](https://github.com/AlfCano/rk.transpose.df/actions/workflows/lintr.yml)
 
