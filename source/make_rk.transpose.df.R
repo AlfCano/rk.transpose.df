@@ -25,7 +25,7 @@ about_plugin_list <- list(
   author = about_author,
   about = list(
     desc = "An RKWard plugin to transpose a data frame, turning rows into columns and columns into rows.",
-    version = "0.01.3",
+    version = "0.01.4",
     date = format(Sys.Date(), "%Y-%m-%d"),
     url = "https://github.com/AlfCano/rk.transpose.df",
     license = "GPL",
@@ -121,7 +121,12 @@ js_calculate <- '
 # --- Plugin Skeleton Generation ---
 rk.plugin.skeleton(
   about = about_node,
-  pluginmap = list(name = "Transpose Data Frame", hierarchy = list("data")),
+  # ADDED: po_id = plugin_name to ensure the <document> tag has the 'po_id' attribute
+  pluginmap = list(
+      name = "Transpose Data Frame",
+      hierarchy = list("data"),
+      po_id = plugin_name
+  ),
   xml = list(dialog = transpose_dialog),
   js = list(calculate = js_calculate, printout = ""),
   rkh = list(help = transpose_help_rkh),
@@ -147,7 +152,7 @@ message(
 )
 
 # make your plugin translatable by setting this to TRUE
-update.translations <- TRUE
+update.translations <- FALSE
 
 # you can make your plugin translatable, see top of script
 if(isTRUE(update.translations)){
