@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rk.transpose.df 0.01.3\n"
+"Report-Msgid-Bugs-To: https://mail.kde.org/mailman/listinfo/kde-i18n-doc\n"
+"POT-Creation-Date: 2023-10-27 12:00+0000\n"
+"PO-Revision-Date: 2025-01-01 12:00+0000\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: RKWard Plugin Generator\n"
+
+msgid "An RKWard plugin to transpose a data frame, turning rows into columns and columns into rows."
+msgstr "Un plugin RKWard pour transposer un data frame, transformant les lignes en colonnes et les colonnes en lignes."
+
+msgid "Transpose Data Frame"
+msgstr "Transposer un data frame"
+
+msgid "Select data object"
+msgstr "Sélectionner l'objet de données"
+
+msgid "Data frame to transpose (required)"
+msgstr "Data frame à transposer (requis)"
+
+msgid "Save transposed data to object"
+msgstr "Enregistrer les données transposées dans un objet"
+
+msgid "Transposes a data frame, turning its rows into columns and its columns into rows."
+msgstr "Transpose un data frame, en transformant ses lignes en colonnes et ses colonnes en lignes."
+
+msgid "Select a data frame to transpose from the list of available R objects."
+msgstr "Sélectionnez un data frame à transposer dans la liste des objets R disponibles."
+
+msgid "Usage"
+msgstr "Utilisation"
+
+msgid "<p>This plugin takes a data frame as input and uses the base R <code>t()</code> function to transpose it. The result of <code>t()</code> is a matrix, which is then converted back into a data frame for convenience.</p><p>Note that if the original data frame had columns of different types (e.g., numeric, character), all columns in the resulting transposed data frame will be of type character.</p>"
+msgstr "<p>Ce plugin prend un data frame en entrée et utilise la fonction de base R <code>t()</code> pour le transposer. Le résultat de <code>t()</code> est une matrice, qui est ensuite reconvertie en data frame par commodité.</p><p>Notez que si le data frame d'origine comportait des colonnes de types différents (par exemple, numérique, caractère), toutes les colonnes du data frame transposé résultant seront de type caractère.</p>"
+
+msgid "Output"
+msgstr "Sortie"
+
+msgid "<p>A new data frame is created where the rows are the columns of the input data frame, and the columns are the rows of the input data frame.</p>"
+msgstr "<p>Un nouveau data frame est créé où les lignes sont les colonnes du data frame d'entrée, et les colonnes sont les lignes du data frame d'entrée.</p>"

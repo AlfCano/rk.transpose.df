@@ -2,7 +2,7 @@ Package: rk.transpose.df
 Type: Package
 Title: An RKWard plugin to transpose a data frame, turning rows into
         columns and columns into rows.
-Version: 0.01.4
+Version: 0.01.5
 Date: 2025-12-31
 Author: Alfonso Cano Robles
 Maintainer: Alfonso Cano Robles <alfonso.cano@correo.buap.mx>

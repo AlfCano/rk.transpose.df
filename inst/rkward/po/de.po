@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rk.transpose.df 0.01.3\n"
+"Report-Msgid-Bugs-To: https://mail.kde.org/mailman/listinfo/kde-i18n-doc\n"
+"POT-Creation-Date: 2023-10-27 12:00+0000\n"
+"PO-Revision-Date: 2025-01-01 12:00+0000\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+
+msgid "An RKWard plugin to transpose a data frame, turning rows into columns and columns into rows."
+msgstr "Ein RKWard-Plugin zum Transponieren eines Data Frames, das Zeilen in Spalten und Spalten in Zeilen umwandelt."
+
+msgid "Transpose Data Frame"
+msgstr "Data Frame transponieren"
+
+msgid "Select data object"
+msgstr "Datenobjekt auswählen"
+
+msgid "Data frame to transpose (required)"
+msgstr "Zu transponierender Data Frame (erforderlich)"
+
+msgid "Save transposed data to object"
+msgstr "Transponierte Daten in Objekt speichern"
+
+msgid "Transposes a data frame, turning its rows into columns and its columns into rows."
+msgstr "Transponiert einen Data Frame, wobei Zeilen in Spalten und Spalten in Zeilen umgewandelt werden."
+
+msgid "Select a data frame to transpose from the list of available R objects."
+msgstr "Wählen Sie einen zu transponierenden Data Frame aus der Liste der verfügbaren R-Objekte."
+
+msgid "Usage"
+msgstr "Verwendung"
+
+msgid "<p>This plugin takes a data frame as input and uses the base R <code>t()</code> function to transpose it. The result of <code>t()</code> is a matrix, which is then converted back into a data frame for convenience.</p><p>Note that if the original data frame had columns of different types (e.g., numeric, character), all columns in the resulting transposed data frame will be of type character.</p>"
+msgstr "<p>Dieses Plugin nimmt einen Data Frame als Eingabe und verwendet die R-Basisfunktion <code>t()</code>, um ihn zu transponieren. Das Ergebnis von <code>t()</code> ist eine Matrix, die der Einfachheit halber wieder in einen Data Frame umgewandelt wird.</p><p>Beachten Sie: Wenn der ursprüngliche Data Frame Spalten unterschiedlichen Typs (z. B. numerisch, character) enthielt, werden alle Spalten im resultierenden transponierten Data Frame vom Typ character sein.</p>"
+
+msgid "Output"
+msgstr "Ausgabe"
+
+msgid "<p>A new data frame is created where the rows are the columns of the input data frame, and the columns are the rows of the input data frame.</p>"
+msgstr "<p>Es wird ein neuer Data Frame erstellt, in dem die Zeilen den Spalten des Eingabe-Data Frames und die Spalten den Zeilen des Eingabe-Data Frames entsprechen.</p>"

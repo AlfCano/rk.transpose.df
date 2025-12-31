@@ -25,7 +25,7 @@ about_plugin_list <- list(
   author = about_author,
   about = list(
     desc = "An RKWard plugin to transpose a data frame, turning rows into columns and columns into rows.",
-    version = "0.01.4",
+    version = "0.01.5",
     date = format(Sys.Date(), "%Y-%m-%d"),
     url = "https://github.com/AlfCano/rk.transpose.df",
     license = "GPL",

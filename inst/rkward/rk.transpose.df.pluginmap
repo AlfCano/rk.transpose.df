@@ -20,7 +20,7 @@
 		name="rk.transpose.df"
 		shortinfo="An RKWard plugin to transpose a data frame, turning rows into columns and columns into rows."
 		longinfo="An RKWard plugin to transpose a data frame, turning rows into columns and columns into rows."
-		version="0.01.4"
+		version="0.01.5"
 		releasedate="2025-12-31"
 		url="https://github.com/AlfCano/rk.transpose.df"
 		license="GPL"

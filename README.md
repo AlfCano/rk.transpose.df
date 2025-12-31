@@ -1,7 +1,6 @@
-
 # RKWard Plugin: Transpose Data Frame (`rk.transpose.df`)
 
-![Version](https://img.shields.io/badge/Version-0.01.4-blue.svg)
+![Version](https://img.shields.io/badge/Version-0.01.5-blue.svg)
 ![License](https://img.shields.io/badge/License-GPL--3-green.svg)
 [![R Linter](https://github.com/AlfCano/rk.transpose.df/actions/workflows/lintr.yml/badge.svg)](https://github.com/AlfCano/rk.transpose.df/actions/workflows/lintr.yml)
 
@@ -15,10 +14,19 @@ This is a fundamental data reshaping task, useful for situations where data is r
 
 ## Features
 
--   Selects any data frame from the current R workspace.
--   Transposes the data, swapping rows and columns.
--   Converts the transposed matrix back into a `data.frame` for easier use.
--   Saves the result to a new R object in the workspace.
+-   **Easy Selection:** Selects any data frame from the current R workspace.
+-   **Transposition:** Transposes the data, swapping rows and columns.
+-   **Auto-Conversion:** Converts the transposed matrix back into a `data.frame` for easier use.
+-   **Result Saving:** Saves the result to a new R object in the workspace.
+-   **Internationalization (i18n):** Fully localized interface available in multiple languages.
+
+### Supported Languages
+As of version 0.01.5, this plugin is available in:
+*   🇺🇸 English (Default)
+*   🇪🇸 Spanish (`es`)
+*   🇫🇷 French (`fr`)
+*   🇩🇪 German (`de`)
+*   🇧🇷 Portuguese (Brazil) (`pt_BR`)
 
 ### Important Note on Data Types
 
@@ -29,23 +37,25 @@ When a data frame with columns of different types (e.g., `numeric`, `character`,
 ### With `devtools` (Recommended)
 You can install this plugin directly from its repository using the `devtools` package in R.
 
-```
+```r
 local({
-## Preparar
+## Prepare
 require(devtools)
-## Computar
+## Compute
   install_github(
-    repo="AlfCano/rk.transpose.df"
+    repo="AlfCano/rk.transpose.df",
+    force = TRUE
   )
-## Imprimir el resultado
-rk.header ("Resultados de Instalar desde git")
+## Print result
+rk.header ("Installation from git result")
 })
 ```
 
 ### Manual Installation
 1.  Download this repository as a `.zip` file.
 2.  In RKWard, go to **Settings -> R Packages -> Install package(s) from local zip file(s)** and select the downloaded file.
-3.  Restart RKWard. The plugin will be available in the `Data` menu.
+3.  **Restart RKWard** (This is required for the new plugin and translations to load).
+4.  The plugin will be available in the `Data` menu.
 
 ## Usage
 
@@ -67,5 +77,3 @@ This plugin is licensed under the GPL (>= 3).
 
 * Alfonso Cano (alfonso.cano@correo.buap.mx)  
 * Assisted by Gemini, a large language model from Google.
-
-
