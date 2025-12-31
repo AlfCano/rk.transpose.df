@@ -25,7 +25,7 @@ about_plugin_list <- list(
   author = about_author,
   about = list(
     desc = "An RKWard plugin to transpose a data frame, turning rows into columns and columns into rows.",
-    version = "0.01.2",
+    version = "0.01.3",
     date = format(Sys.Date(), "%Y-%m-%d"),
     url = "https://github.com/AlfCano/rk.transpose.df",
     license = "GPL",
@@ -145,4 +145,17 @@ message(
   paste0('   # Make sure your working directory is the parent of the \'', plugin_name, '\' folder\n'),
   paste0('   # devtools::install("', plugin_name, '")')
 )
+
+# make your plugin translatable by setting this to TRUE
+update.translations <- TRUE
+
+# you can make your plugin translatable, see top of script
+if(isTRUE(update.translations)){
+	rk.updatePluginMessages(
+		file.path(".",plugin_name,"inst","rkward","rk.transpose.df.pluginmap"),
+		# where should translation bug reports go?
+		bug_reports="https://mail.kde.org/mailman/listinfo/kde-i18n-doc"
+	)
+} else {}
+
 })
